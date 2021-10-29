@@ -1,4 +1,23 @@
-body
-{
-  
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+  background-color: #fff;
+}
+
+/* NavMenu */
+a:hover, .brand:hover {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.nav-link, .brand {
+  outline: none !important;
+}
+
+.NavContainer {
+  margin-top: 72px;
 }
