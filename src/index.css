@@ -21,3 +21,8 @@ a:hover, .brand:hover {
 .NavContainer {
   margin-top: 72px;
 }
+
+/* Forms */
+.hidden {
+  display:none;
+}
